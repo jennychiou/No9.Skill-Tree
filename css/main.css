@@ -1,0 +1,128 @@
+﻿@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+* {
+    font-family: 'Noto Sans TC';
+}
+
+.topleft {
+    width: 180px;
+    height: 200px;
+    padding-left: 100px;
+    padding-top: 0px;
+    float: left;
+}
+
+.topright {
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    float: left;
+}
+
+.title1 {
+    font-family: YouYuan;
+    font-size: 50px;
+    color: white;
+    text-shadow: #0093FF 0px 3px 7px;
+    margin: 0px auto;
+}
+
+.title2 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Baloo Da', cursive;
+    text-shadow: #0093FF 0px 3px 7px;
+    margin: 0px auto;
+}
+
+.img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 147, 255, 0.35);
+    border: 12px rgba(87, 145, 255, 0.62) solid;
+    border-radius: 45px;
+    box-shadow: rgba(0, 147, 255, 0.44) 1px 1px 10px;
+}
+
+.img2 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 147, 255, 0.35);
+    border: 12px rgba(92, 92, 92, 0.62) solid;
+    border-radius: 45px;
+    box-shadow: rgba(0, 147, 255, 0.44) 1px 1px 10px;
+}
+
+    .img2:hover {
+        cursor: pointer;
+        background-color: rgba(0, 147, 255, 0.35);
+        border: 12px rgba(255, 255, 255, 0.62) solid;
+    }
+
+.img3 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 147, 255, 0.35);
+    border: 12px rgba(255, 255, 255, 0.62) solid;
+    border-radius: 45px;
+    box-shadow: rgba(0, 147, 255, 0.44) 1px 1px 10px;
+}
+
+
+.header, .footer {
+    width: 100%;
+    /*background: #0aa1ff;*/
+    height: 280px;
+    text-align: center;
+}
+
+.content {
+    /*padding: 20px;*/
+    height: 1000px;
+}
+
+.foot-content {
+    border: 6px rgba(0, 147, 255, 0.76) solid;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    position: relative;
+    width: 800px;
+    height: 120px;
+    left: 145px;
+    top: 440px;
+    z-index: 0;
+}
+
+.foot-content-img {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+.foot-content-subtitle {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 35px;
+    color: rgba(80, 80, 80, 1);
+    position: absolute;
+    left: 200px;
+}
+
+.foot-content-text {
+    color: rgba(123, 123, 123, 1);
+    font-size: 20px;
+    position: absolute;
+    top: 75px;
+    left: 200px;
+}
+.word {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border: 5px rgba(0, 50, 165, 0.08);
+    text-shadow: 0px 0px 10px rgba(0, 147, 255, 0.73);
+}
