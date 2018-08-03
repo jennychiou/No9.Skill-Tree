@@ -21,6 +21,8 @@ $("#blade-1").click(function () {
     document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
 });
 
 $("#meat").click(function () {
@@ -46,6 +48,8 @@ $("#meat").click(function () {
     document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
 });
 
 $("#shield").click(function () {
@@ -71,6 +75,8 @@ $("#shield").click(function () {
     document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
 });
 
 $("#hat").click(function () {
@@ -96,6 +102,8 @@ $("#hat").click(function () {
     document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
 });
 
 $("#horn").click(function () {
@@ -121,6 +129,8 @@ $("#horn").click(function () {
     document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
 });
 
 $("#hammer").click(function () {
@@ -146,4 +156,432 @@ $("#hammer").click(function () {
     document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
     document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#illustration").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#25554;&#30059;";
+    document.getElementById("foot-content-text").innerHTML = "&#25554;&#30059;&#28304;&#33258;&#20110;&#25289;&#19969;&#25991;&#12300;illustraio&#12301;&#65292;&#24847;&#25351;&#29031;&#20142;&#20043;&#24847;&#65292;&#20063;&#23601;&#26159;&#35498;&#25554;&#30059;&#21487;&#20197;&#20351;&#25991;&#23383;&#24847;&#24565;&#35722;&#24471;&#26356;&#28165;&#26224;&#12289;&#26377;&#36259;&#12290;&#25554;&#30059;&#20316;&#28858;&#29694;&#20195;&#35373;&#35336;&#30340;&#19968;&#31278;&#37325;&#35201;&#35222;&#35258;&#20659;&#36948;&#24418;&#24335;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/nqgyyz/img_illustration.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#sense").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#32654;&#24863;";
+    document.getElementById("foot-content-text").innerHTML = "&#19981;&#35542;&#26159;&#20160;&#40636;&#27171;&#30340;&#25976;&#20301;&#29986;&#21697;(Web , App&#8943;&#31561;)&#65292;&#35222;&#35258;&#37117;&#26159;&#25509;&#35320;&#29992;&#25142;&#30340;&#31532;&#19968;&#36947;&#38364;&#21345;&#65292;&#27599;&#20491;&#29289;&#20214;&#30340;&#38512;&#24433;&#12289;&#22823;&#23567;&#21040;&#22291;&#35282;&#30340;&#34389;&#29702;&#65292;&#20197;&#21450;&#27599;&#20491;&#38917;&#30446;&#20043;&#38291;&#30340;&#38291;&#36317;&#21450;&#25972;&#39636;&#37197;&#33394;&#65292;&#37117;&#26159;&#39764;&#39740;&#30340;&#38364;&#37749;&#32048;&#31680;&#65292;&#20063;&#26159;&#35373;&#35336;&#24107;&#30340;&#22522;&#26412;&#32032;&#39178;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/hHG6Jz/img_sense.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#inspiration").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#38728;&#24863;";
+    document.getElementById("foot-content-text").innerHTML = "&#34315;&#26524;&#25171;&#21040;&#29275;&#38931;&#30340;&#38957;&#65292;&#36948;&#25991;&#35199;&#36062;&#40165;&#23637;&#32709;&#65292;&#36889;&#20123;&#38728;&#20809;&#20045;&#29694;&#30340;&#30636;&#38291;&#23565;&#35373;&#35336;&#24107;&#20358;&#35498;&#26159;&#31232;&#36020;&#30340;&#23542;&#30707;&#65292;&#21482;&#26159;&#38728;&#24863;&#19981;&#21934;&#26159;&#31245;&#32305;&#21363;&#36893;&#30340;&#30636;&#38291;&#65292;&#20063;&#26159;&#33258;&#30332;&#30340;&#23416;&#32722;&#21193;&#24375;&#31309;&#32047;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/gDoWke/img_inspiration.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#color").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#37197;&#33394;";
+    document.getElementById("foot-content-text").innerHTML = "&#8220;&#37197;&#33394;&#26041;&#26696;&#8221; &#26159;&#27599;&#20491;&#35373;&#35336;&#22522;&#30990;&#20013;&#30456;&#30070;&#37325;&#35201;&#30340;&#22240;&#32032;&#20043;&#19968;&#65292;&#20219;&#20309;&#35373;&#35336;&#30340;&#37197;&#33394;&#36984;&#25799;&#37117;&#20855;&#20633;&#19968;&#23450;&#30340;&#37007;&#36655;&#32771;&#37327;&#12290;&#36879;&#36942;&#33394;&#24425;&#29702;&#35542;&#30340;&#25033;&#29992;&#65292;&#26356;&#26377;&#27231;&#26371;&#25913;&#35722;&#21463;&#30526;&#30340;&#34892;&#28858;&#27169;&#24335;&#65292;&#36948;&#25104;&#35373;&#35336;&#30340;&#30446;&#27161;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/eudTyz/img_color.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#text").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#25991;&#26696;";
+    document.getElementById("foot-content-text").innerHTML = "&#38614;&#28982;&#35498;&#25991;&#26696;&#21487;&#33021;&#24050;&#32147;&#26377;&#20854;&#20182;&#37096;&#38272;&#26371;&#28310;&#20633;&#65292;&#20294;&#26356;&#24120;&#36935;&#21040;&#30340;&#29376;&#27841;&#26159;&#65292;&#20182;&#20497;&#20063;&#19981;&#30693;&#36947;&#20320;&#35069;&#20316;&#32178;&#38913;&#26371;&#38656;&#35201;&#20160;&#40636;&#27171;&#30340;&#20839;&#23481;&#65292;&#25110;&#26159;&#20170;&#22825;&#26159;&#20320;&#35201;&#29544;&#33258;&#23436;&#25104;&#19968;&#20491;&#32178;&#31449;&#30340;&#19978;&#26550;&#65307;&#20854;&#23526;&#30070;&#26550;&#31449;&#33287;&#35373;&#35336;&#25216;&#34899;&#32147;&#39511;&#21040;&#19968;&#23450;&#38272;&#27323;&#24460;&#65292;&#29986;&#25991;&#26696;&#21453;&#32780;&#26159;&#26368;&#38627;&#30340;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/bJwOyz/img_text.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#pictures").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#22294;&#24235;";
+    document.getElementById("foot-content-text").innerHTML = "&#32178;&#38913;&#20013;&#26371;&#29992;&#21040;&#22823;&#37327;&#30340;&#23526;&#25293;&#29031;&#29255;&#12289;&#25110;&#26159;&#20316;&#28858;&#32972;&#26223;&#30340;&#24773;&#22659;&#29031;&#65292;&#22914;&#26524;&#23458;&#25142;&#37027;&#37002;&#25552;&#20379;&#30340;&#32032;&#26448;&#19981;&#30433;&#20154;&#24847;&#65292;&#36889;&#26178;&#20505;&#20320;&#23601;&#24471;&#33258;&#24049;&#28310;&#20633;&#20102;&#65292;&#20316;&#22909;&#32654;&#32654;&#30340;&#35373;&#35336;&#31295;&#25165;&#33021;&#22816;&#26377;&#35498;&#26381;&#21147;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/gAMqdz/img_pictures.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#axe").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "UI&#35373;&#35336;";
+    document.getElementById("foot-content-text").innerHTML = "&#32066;&#26044;&#36914;&#20837;&#21040;&#20171;&#38754;&#35373;&#35336;&#30340;&#29872;&#31680;&#21862;&#65281;&#21069;&#38754;&#30340;&#20123;&#28310;&#20633;&#21450;&#25216;&#24039;&#65292;&#37117;&#26159;&#28858;&#20102;&#22312;&#36889;&#19968;&#38542;&#27573;&#33021;&#26377;&#26356;&#31934;&#24425;&#30340;&#34920;&#29694;&#65292;&#22374;&#30333;&#35498;&#29694;&#22312;&#30340; UI &#35373;&#35336;&#36575;&#39636;&#30340;&#25805;&#20316;&#24840;&#20570;&#24840;&#31777;&#21934;&#65292;&#21151;&#33021;&#20063;&#24190;&#20046;&#24840;&#20358;&#24840;&#20687;&#65292;&#25361;&#19968;&#27454;&#36969;&#21512;&#20320;&#30340;&#24037;&#20855;&#23601;&#21487;&#20197;&#22217;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/dpMWJz/img_axe.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#book").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#27161;&#35387;";
+    document.getElementById("foot-content-text").innerHTML = "&#36889;&#20063;&#26159;&#19968;&#20491;&#21487;&#20197;&#35731;&#24037;&#31243;&#24107;&#25552;&#26089;&#19979;&#38754;&#30340;&#25216;&#33021;&#65292;&#36879;&#36942;&#21253;&#21547;&#23383;&#39636;&#12289;&#22823;&#23567;&#12289;&#38991;&#33394;&#21450;&#38291;&#21127;&#31561;&#22312;&#20839;&#30340;&#27161;&#35387;&#25991;&#20214;&#65292;&#21487;&#20197;&#35731;&#24037;&#31243;&#24107;&#26356;&#28165;&#26970;&#22320;&#30693;&#36947;&#35373;&#35336;&#31295;&#30340;&#30495;&#23526;&#27169;&#27171;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/h8rFdz/img_book.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#blade").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#21407;&#22411;";
+    document.getElementById("foot-content-text").innerHTML = "&#8220;&#37197;&#33394;&#26041;&#26696;&#8221; &#26159;&#27599;&#20491;&#35373;&#35336;&#22522;&#30990;&#20013;&#30456;&#30070;&#37325;&#35201;&#30340;&#22240;&#32032;&#20043;&#19968;&#65292;&#20219;&#20309;&#35373;&#35336;&#30340;&#37197;&#33394;&#36984;&#25799;&#37117;&#20855;&#20633;&#19968;&#23450;&#30340;&#37007;&#36655;&#32771;&#37327;&#12290;&#36879;&#36942;&#33394;&#24425;&#29702;&#35542;&#30340;&#25033;&#29992;&#65292;&#26356;&#26377;&#27231;&#26371;&#25913;&#35722;&#21463;&#30526;&#30340;&#34892;&#28858;&#27169;&#24335;&#65292;&#36948;&#25104;&#35373;&#35336;&#30340;&#30446;&#27161;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/nm6gJz/img_blade.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#timer").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#29256;&#26412;&#25511;&#21046;";
+    document.getElementById("foot-content-text").innerHTML = "&#19968;&#20491;&#23560;&#26696;&#26377;&#26178;&#26371;&#38656;&#35201;&#22810;&#21517;&#35373;&#35336;&#24107;&#21512;&#20316;&#65292;&#22914;&#20309;&#23384;&#25918;&#27284;&#26696;&#12289;&#21629;&#21517;&#12289;&#20998;&#24037;&#20839;&#23481;&#37117;&#26159;&#38283;&#30332;&#27969;&#31243;&#20013;&#24120;&#36935;&#21040;&#30340;&#21839;&#38988;&#12290;&#25110;&#26159; PM &#24819;&#25484;&#25569;&#27599;&#20301;&#35373;&#35336;&#24107;&#30340;&#36914;&#24230;&#12289;&#23458;&#25142;&#24819;&#20102;&#35299;&#21069;&#24460;&#35373;&#35336;&#31295;&#24046;&#30064;&#65292;&#36889;&#37117;&#35731;&#35373;&#35336;&#24107;&#38656;&#35201;&#33457;&#38989;&#22806;&#30340;&#31934;&#21147;&#21435;&#34389;&#29702;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/fSd8WK/img_timer.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#quill").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#30053;&#25026;&#38283;&#30332;";
+    document.getElementById("foot-content-text").innerHTML = "&#25026;&#19968;&#40670; Code (&#20687;&#26159; Html5 / CSS3/JS..) &#30693;&#36947;&#20854;&#32178;&#38913;&#27083;&#25104;&#23565;&#26044;&#35373;&#35336;&#19978;&#20063;&#33021;&#24118;&#20358;&#24456;&#22823;&#24171;&#21161;&#65292;&#20063;&#33021;&#26356;&#38728;&#27963;&#30340;&#20570;&#20986;&#24819;&#35201;&#30340;&#35222;&#35258;&#33287;&#21109;&#24847;&#12289;&#20006;&#19988;&#26159;&#23526;&#21209;&#19978;&#21487;&#20197;&#34987;&#23526;&#36368;&#30340;&#65292;&#20063;&#29997;&#35731;&#24037;&#31243;&#24107;&#21152;&#29677; QAQ";
+    document.getElementById("foot-img").src = "https://image.ibb.co/kkxkBK/img_quill.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#sword").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#20986;&#24107;";
+    document.getElementById("foot-content-text").innerHTML = "&#24685;&#21916;&#20320;&#65281;&#25269;&#36948;&#36889;&#35041;&#24050;&#32147;&#25793;&#26377; UI&#35373;&#35336;&#24107;&#30340;&#22522;&#26412;&#32887;&#33021;&#65292;&#20294;&#25165;&#27491;&#35201;&#38283;&#22987;&#32780;&#24050;&#21602;&#65292;&#36889;&#32887;&#22909;&#29609;&#30340;&#26159;&#24517;&#38920;&#27599;&#22825;&#37117;&#35201;&#23416;&#32722;&#26032;&#26481;&#35199;&#65292;&#20006;&#19988;&#24478;&#22235;&#34389;&#33936;&#38598;&#38728;&#24863;&#33287;&#36039;&#28304;&#65292;&#20197;&#21450;&#25345;&#32396;&#21109;&#20316;&#32047;&#31309;&#23660;&#26044;&#33258;&#24049;&#30340;&#20316;&#21697;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/d9Wqdz/img_sword.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#emblem").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#21402;&#40657;&#23416;";
+    document.getElementById("foot-content-text").innerHTML = "&#32887;&#22580;&#12289;&#21830;&#22580;&#19978;&#33287;&#20154;&#20849;&#20107;&#22914;&#27492;&#38570;&#23803;&#65292;&#26377;&#26178;&#20505;&#38754;&#33256;&#21040;&#30340;&#26159;&#20844;&#21496;&#20839;&#37096;&#33287;&#20027;&#31649;&#12289;&#24037;&#31243;&#24107;&#20497;&#30340;&#21332;&#20316;&#65292;&#20006;&#19981;&#26159;&#20570;&#22909;&#20221;&#20839;&#30340;&#20107;&#23601;&#21487;&#20197;&#36948;&#25104;&#23560;&#26696;&#30446;&#27161;&#65292;&#21021;&#20837;&#32887;&#22580;&#30340;&#20320;&#26371;&#24863;&#21463;&#21040;&#38750;&#24120;&#22823;&#30340;&#25387;&#25240;&#65292;&#36889;&#26178;&#20505;&#20320;&#26371;&#38656;&#35201;&#25026;&#19968;&#40670;&#25216;&#24039;&#21435;&#32173;&#25345;&#35373;&#35336;&#24107;&#30340;&#31435;&#22580;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/esZ7rK/img_emblem.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#red_chest").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "Side Project";
+    document.getElementById("foot-content-text").innerHTML = "Side Project &#23383;&#38754;&#19978;&#24847;&#24605;&#30340;&#23601;&#26159;&#27491;&#32887;&#24037;&#20316;&#12300;&#20197;&#22806;&#12301;&#30340;&#31169;&#20154;&#38917;&#30446;&#65292;&#20197;&#20013;&#25991;&#20358;&#29702;&#35299;&#20063;&#21487;&#20197;&#24819;&#25104;&#26159;&#12300;&#20491;&#20154;&#38917;&#30446;&#12301;&#65292;&#20063;&#23601;&#26159;&#23660;&#26044;&#20320;&#33258;&#24049;&#30340;&#23560;&#26696;&#12290;&#36889;&#20491;&#23560;&#26696;&#28858;&#20320;&#25152;&#25793;&#26377;&#19988;&#24517;&#38920;&#36000;&#23436;&#20840;&#30340;&#36012;&#20219;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/c5hBmK/img_red_chest.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("red_chest").style.border = "12px rgba(87, 145, 255, 0.62) solid";
+    document.getElementById("yellow_chest").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#yellow_chest").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "Daily UI";
+    document.getElementById("foot-content-text").innerHTML = "&#23565;&#26044;&#21083;&#24819;&#35201;&#20837;&#38272;&#20570; UX/UI &#35373;&#35336;&#30340;&#26379;&#21451;&#20358;&#35498;&#65292;&#25361;&#25136;Daily UI (User Interface &#20351;&#29992;&#32773;&#20171;&#38754;)&#30340;&#32244;&#32722;&#20063;&#35377;&#26159;&#20491;&#22909;&#26041;&#27861;&#65292;&#38500;&#20102;&#21487;&#20197;&#24555;&#36895;&#32047;&#31309;&#20316;&#21697;&#22806;&#65292;&#20063;&#33021;&#35211;&#35657;&#21450;&#32771;&#39511;&#20320;&#26159;&#21542;&#26377;&#36367;&#20837;&#36889;&#34892;&#30340;&#27770;&#24515;&#33287;&#27589;&#21147;&#12290;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/kbC2RK/img_red_yellow.png";
+    document.getElementById("blade-1").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("meat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("shield").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hat").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("horn").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("hammer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("illustration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sense").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("inspiration").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("color").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("text").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("pictures").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("axe").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("book").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("blade").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("timer").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("quill").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("sword").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("emblem").style.border = "12px rgba(92, 92, 92, 0.62) solid";
+    document.getElementById("red_chest").style.border = "12px rgba(255, 255, 255, 0.62) solid";
+    document.getElementById("yellow_chest").style.border = "12px rgba(87, 145, 255, 0.62) solid";
+    document.getElementById("btn_o").style.visibility = "hidden";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#padora").click(function () {
+    document.getElementById("foot-content-subtitle").innerHTML = "&#28504;&#26421;&#25289;&#23542;&#30418;";
+    document.getElementById("foot-content-text").innerHTML = "&#65288;&#8943;&#8943;&#36889;&#26159;&#8943;&#20999;&#22294;&#27794;&#20999;&#22909;?!&#65289;";
+    document.getElementById("foot-img").src = "https://image.ibb.co/cbn5wK/img_chest.png";
+    document.getElementById("btn_o").style.visibility = "visible";
+    document.getElementById("btn_c").style.visibility = "hidden";
+});
+
+$("#btn_o").click(function () {
+    document.getElementById("box").style.visibility = "visible";
+    document.getElementById("btn_c").style.visibility = "visible";
+});
+
+$("#btn_c").click(function () {
+    document.getElementById("box").style.visibility = "hidden";
 });

@@ -57,7 +57,6 @@
 
     .img2:hover {
         cursor: pointer;
-        background-color: rgba(0, 147, 255, 0.35);
         border: 12px rgba(255, 255, 255, 0.62) solid;
     }
 
@@ -70,6 +69,11 @@
     border-radius: 45px;
     box-shadow: rgba(0, 147, 255, 0.44) 1px 1px 10px;
 }
+
+    .img3:hover {
+        cursor: pointer;
+        border: 12px rgba(87, 145, 255, 0.62) solid;
+    }
 
 
 .header, .footer {
@@ -91,8 +95,8 @@
     padding: 20px;
     position: relative;
     width: 800px;
-    height: 140px;
-    left: 145px;
+    height: 160px;
+    left: 125px;
     top: 440px;
     z-index: 0;
 }
@@ -119,6 +123,7 @@
     top: 75px;
     left: 200px;
 }
+
 .word {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 20px;
@@ -126,4 +131,70 @@
     color: rgba(255, 255, 255, 1);
     border: 5px rgba(0, 50, 165, 0.08);
     text-shadow: 0px 0px 10px rgba(0, 147, 255, 0.73);
+}
+
+#btn_o {
+    border: 6px rgba(87, 145, 255, 0.62) solid;
+    border-radius: 39px;
+    background-color: rgba(0, 147, 255, 0.35);
+    padding: 2px 20px 2px 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 147, 255, 0.44);
+    position: absolute;
+    top: 880px;
+    left: 650px;
+    z-index: 99;
+    visibility: hidden;
+}
+
+#btn_c {
+    border: 6px rgba(87, 145, 255, 0.62) solid;
+    border-radius: 39px;
+    background-color: rgba(0, 147, 255, 0.35);
+    padding: 2px 20px 2px 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 147, 255, 0.44);
+    position: absolute;
+    top: 880px;
+    left: 780px;
+    z-index: 99;
+    visibility: hidden;
+}
+
+#hexcat {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+#hexcat {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
 }

@@ -7,10 +7,11 @@
     <link href="css/main.css" rel=stylesheet>
     <link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
 
-    <div class="wrap" style="width:1510px;height:1580px;background-color:#301A3B;margin:auto;">
+    <div class="wrap" style="width:1510px;height:1664px;background-color:#301A3B;margin:auto;">
         <div class="header">
             <div class="topleft">
                 <img src="https://image.ibb.co/bSnP5e/img_planet.png" width="200" />
@@ -94,20 +95,34 @@
             </div>
             <div class="foot">
                 <img src="https://image.ibb.co/d8ERJz/img_monocat.png" style="width:185px;position: absolute;top:700px;left:50px;z-index: 1;" />
-                <h1 class="foot-content">
-                    <img id="foot-img" class="foot-content-img" src="https://image.ibb.co/j3iNQe/img_blade_1.png" />
-                    <span id="foot-content-subtitle" class="foot-content-subtitle">設計規範</span>
-                    <span id="foot-content-text" class="foot-content-text">UI設計跟平面設計最大的不同是，因為具有功能、要被操作且須遵守規範，雖然難啃但不失為初心者必備武器。</span>
+                <h1 id="foot-content" class="foot-content">
+                    <img id="foot-img" class="foot-content-img" />
+                    <span id="foot-content-subtitle" class="foot-content-subtitle">安安</span>
+                    <span id="foot-content-text" class="foot-content-text">我是Mono喵，接下來將你領略UI的變換。喵。</span>
                 </h1>
 
-                <img src="https://image.ibb.co/c33srK/img_padora.png" style="width:190px;position: absolute;top:750px;left:1150px;" />
+                <img id="padora" src="https://image.ibb.co/c33srK/img_padora.png" style="cursor:pointer;width:190px;position: absolute;top:750px;left:1150px;" />
                 <span class="word" style="position: absolute;top:1080px;left:1200px;">潘朵拉寶盒</span>
-                <img src="https://i.screenshot.net/m4146sv" style="width:1510px;position: absolute;top:846px;left:8px;" />
-                <img src="https://image.ibb.co/bB4tyz/img_rocket.png" style="height:540px;position: absolute;top:1048px;left:880px;" />
-                <img src="https://image.ibb.co/dKQmke/img_hexcat.png" style="width:260px;position: absolute;top:1100px;left:60px;" />
+                <input type="button" id="btn_o" value="Open" />
+                <input type="button" id="btn_c" value="Close" />
+                <img src="https://i.screenshot.net/m4146sv" style="width:1510px;position: absolute;top:930px;left:8px;" />
+                <img id="rocket" src="https://image.ibb.co/bB4tyz/img_rocket.png" style="height:540px;position: absolute;top:1132px;left:880px;" />
+                <img id="hexcat" src="https://image.ibb.co/dKQmke/img_hexcat.png" style="width:260px;position: absolute;top:1184px;left:60px;" />
+
+                <div id="box" style="visibility: hidden;">
+                    <img id="chest" src="https://image.ibb.co/eQ6Afe/img_chest.png" style="width:150px;padding: 25px;top:1045px;left:410px;position:absolute;z-index:1;" />
+                    <span class="word" style="position: absolute;top:1220px;left:460px;">潘朵拉寶盒</span>
+                    <img id="arrow7" src="https://image.ibb.co/cLCoYz/arrow7.png" style="padding: 25px;top:995px;left:540px;position:absolute;opacity:0.73;z-index:0;" />
+
+                    <img id="red_chest" class="img3" src="https://image.ibb.co/c5hBmK/img_red_chest.png" style="padding: 25px;top:980px;left:685px;" />
+                    <span class="word" style="position: absolute;top:1110px;left:690px;">Side Project</span>
+                    <img id="yellow_chest" class="img3" src="https://image.ibb.co/kbC2RK/img_red_yellow.png" style="padding: 25px;top:1165px;left:685px;" />
+                    <span class="word" style="position: absolute;top:1295px;left:710px;">Daily UI</span>
+                </div>
             </div>
         </div>
     </div>
     <script src="js/Script1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </body>
 </html>
